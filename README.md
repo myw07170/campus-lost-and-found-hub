@@ -33,14 +33,6 @@ Open the site in one browser tab and share mouse control. Select **Reset demo** 
 
 **Reset demo** in the footer restores the starter data and signs out. Reports, claims, and uploaded photos stay in IndexedDB on the current browser and site. Demo identity is stored in the current tab. The prototype models claim visibility in its interface. Real authentication, API, server-side authorization, and a shared database are Part C work.
 
-### Heuristic evaluation
-
-Give the evaluator a task from the table and let them try it before offering the walkthrough steps. Record where they hesitate, make an error, or ask what happened next. Capture a revision and a retest after evaluating peer feedback.
-
-| Task and step | Observed behavior | Usability heuristic | Severity (0–4) | Proposed revision | Retest result |
-| --- | --- | --- | --- | --- | --- |
-| | | | | | |
-
 ## Deploy to GitHub Pages
 
 1. Create or select a GitHub repository for the prototype and connect it as `origin`. Commit the source, including `package-lock.json` and `.github/workflows/pages.yml`, and push `main`.
